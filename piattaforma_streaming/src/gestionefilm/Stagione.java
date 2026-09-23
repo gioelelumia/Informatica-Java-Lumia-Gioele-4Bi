@@ -6,9 +6,7 @@ public class Stagione {
     private String trama;
     private String sceneggiatore;
 
-    public int getNumeroStagione() {
-        return numeroStagione;
-    }
+    
 
     public Stagione(int numeroStagione, int numeroEpisodi, String trama, String sceneggiatore) {
         this.numeroStagione = numeroStagione;
@@ -21,6 +19,10 @@ public class Stagione {
         this(0, 0, "", "");
     }
 
+    public int getNumeroStagione() {
+        return numeroStagione;
+    }
+    
     public void setNumeroStagione(int numeroStagione) {
         this.numeroStagione = numeroStagione;
     }
